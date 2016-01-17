@@ -45,8 +45,20 @@
       .navbar {
         background-color: #000000;
       }
-      .navbar-toggle {
-        color: #e60000;
+      .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 10px;<!-- changed from 2px to 10px -->
+        border-radius: 1px;
+      }
+      .navbar-default .navbar-toggle .icon-bar {
+        background-color: #e60000;<!-- changed from 888888 to e60000 -->
+      }
+      .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #e60000;<!-- changed from ffffff to e60000 -->
+      }
+      .navbar-transparent .navbar-toggle .icon-bar {
+        background-color: #e60000;<!-- changed from ffffff to e60000 -->
       }
     </style>
   </head>
