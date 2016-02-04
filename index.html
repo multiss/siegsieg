@@ -49,7 +49,7 @@
       <div class="container text-center">
         <h1 class="block-title m-b-sm text-uppercase app-myphone-brand">SIEGSIEG</h1>
         <p class="lead m-b-lg p-b-md">We are currently working on our website.</p>
-        <p>If you would like to be kept informed of our launch, please fill out the form below.
+        <p class="lead m-b-lg p-b-md">If you would like to be kept informed of our launch, please fill out the form below.
         <form id="contactform" method="POST">
           <input type="text" name="name" placeholder="Your name">
           <input type="email" name="_replyto" placeholder="Your email">
@@ -60,15 +60,16 @@
           <input type="hidden" name="_next" value="//siegsieg.com/thanks-for-signing-up.html" />
           <input type="hidden" name="_subject" value="Siegsieg Product Launch Sign-Up" />
           <input type="submit" value="Send">
-          </form>
-          <script>
-            var contactform =  document.getElementById('contactform');
-            contactform.setAttribute('action', '//formspree.io/' + 'wf' + '@' + 'siegsieg' + '.' + 'com');
-            var ccemailfield = document.getElementById('ccemail');
-            ccemailfield.setAttribute('value', 'md' + '@' + 'siegsieg' + '.' + 'com');
-            /* var ccemailfield = document.getElementById('ccemail2');
-            ccemailfield.setAttribute('value', 'ar' + '@' + 'siegsieg' + '.' + 'com'); */
-          </script></p>
+        </form>
+        <script>
+          var contactform =  document.getElementById('contactform');
+          contactform.setAttribute('action', '//formspree.io/' + 'wf' + '@' + 'siegsieg' + '.' + 'com');
+          var ccemailfield = document.getElementById('ccemail');
+          ccemailfield.setAttribute('value', 'md' + '@' + 'siegsieg' + '.' + 'com');
+          /* var ccemailfield = document.getElementById('ccemail2');
+          ccemailfield.setAttribute('value', 'ar' + '@' + 'siegsieg' + '.' + 'com'); */
+        </script>
+        </p>
         <!-- <p class="lead m-b-lg p-b-md">In the meantime, if you need to reach us, please send us a text message to .</p>
         <p class="lead m-b-lg p-b-md">We are based in P&eacute;tion-Ville, Ha&iuml;ti.</p>
         <p class="lead m-b-lg p-b-md"></p>
