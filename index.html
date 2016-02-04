@@ -53,7 +53,7 @@
         <form id="contactform" method="POST">
           <input type="text" name="name" placeholder="Your name">
           <input type="email" name="_replyto" placeholder="Your email">
-          <input type="tel" name="tel" value="Your telephone number" />
+          <input id="phone" type="text" placeholder="Your telephone number">
           <input type="text" name="_gotcha" style="display:none" />
           <input id="ccemail" type="hidden" name="_cc">
           <!-- <input id="ccemail2" type="hidden" name="_cc2"> -->
@@ -131,6 +131,20 @@
     <script src="../docs/assets/js/jquery.min.js"></script>
     <script src="../docs/assets/js/toolkit.js"></script>
     <script src="../docs/assets/js/application.js"></script>
+    <script src="https://cloud.github.com/downloads/digitalBush/jquery.maskedinput/jquery.maskedinput-1.3.min.js"></script>
+    <script>
+      $("#phone").mask("(999) 999-9999");
+       
+      $("#phone").on("blur", function() {
+        var last = $(this).val().substr( $(this).val().indexOf("-") + 1 );
+        if( last.length == 3 ) {
+          var move = $(this).val().substr( $(this).val().indexOf("-") - 1, 1 );
+          var lastfour = move + last;
+          var first = $(this).val().substr( 0, 9 );
+          $(this).val( first + '-' + lastfour );
+        }
+      });
+    </script>
     <!-- <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
