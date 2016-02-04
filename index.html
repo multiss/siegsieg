@@ -56,7 +56,7 @@
           <input id="tphone" type="text" placeholder="(###) ###-####">  
           <input type="text" name="_gotcha" style="display:none" />
           <input id="ccemail" type="hidden" name="_cc">
-          <!-- <input id="ccemail2" type="hidden" name="_cc2"> -->
+          <input id="bccemail" type="hidden" name="_bcc">
           <input type="hidden" name="_next" value="//siegsieg.com/thanks-for-signing-up.html" />
           <input type="hidden" name="_subject" value="Siegsieg Product Launch Sign-Up" />
           <input type="submit" value="Send">
@@ -66,8 +66,8 @@
           contactform.setAttribute('action', '//formspree.io/' + 'wf' + '@' + 'siegsieg' + '.' + 'com');
           var ccemailfield = document.getElementById('ccemail');
           ccemailfield.setAttribute('value', 'md' + '@' + 'siegsieg' + '.' + 'com');
-          /* var ccemailfield = document.getElementById('ccemail2');
-          ccemailfield.setAttribute('value', 'ar' + '@' + 'siegsieg' + '.' + 'com'); */
+          var ccemailfield = document.getElementById('bccemail');
+          ccemailfield.setAttribute('value', 'ar' + '@' + 'siegsieg' + '.' + 'com');
         </script>
         </p>
         <!-- <p class="lead m-b-lg p-b-md">In the meantime, if you need to reach us, please send us a text message to .</p>
