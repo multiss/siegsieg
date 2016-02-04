@@ -55,8 +55,8 @@
           <input type="email" name="_replyto" placeholder="Your email">
           <input type="tel" name="tel" value="Your telephone number" />
           <input type="text" name="_gotcha" style="display:none" />
-          <input id="ccemail1" type="hidden" name="_cc1">
-          <input id="ccemail2" type="hidden" name="_cc2">
+          <input id="ccemail" type="hidden" name="_cc">
+          <!-- <input id="ccemail2" type="hidden" name="_cc2"> -->
           <input type="hidden" name="_next" value="//siegsieg.com/thanks-for-signing-up.html" />
           <input type="hidden" name="_subject" value="Product Launch Sign-Up" />
           <input type="submit" value="Send">
@@ -64,10 +64,10 @@
           <script>
             var contactform =  document.getElementById('contactform');
             contactform.setAttribute('action', '//formspree.io/' + 'wf' + '@' + 'siegsieg' + '.' + 'com');
-            var ccemailfield = document.getElementById('ccemail1');
-            ccemailfield.setAttribute('value', 'md' + '@' + 'siegsieg' + '.' + 'com');
-            var ccemailfield = document.getElementById('ccemail2');
-            ccemailfield.setAttribute('value', 'ar' + '@' + 'siegsieg' + '.' + 'com');
+            var ccemailfield = document.getElementById('ccemail');
+            ccemailfield.setAttribute('value', 'md' + '@' + 'siegsieg' + '.' + 'com' + ', ' + 'ar' + '@' + 'siegsieg' + '.' + 'com');
+            /* var ccemailfield = document.getElementById('ccemail2');
+            ccemailfield.setAttribute('value', 'ar' + '@' + 'siegsieg' + '.' + 'com'); */
           </script></p>
         <!-- <p class="lead m-b-lg p-b-md">In the meantime, if you need to reach us, please send us a text message to .</p>
         <p class="lead m-b-lg p-b-md">We are based in P&eacute;tion-Ville, Ha&iuml;ti.</p>
