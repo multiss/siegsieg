@@ -39,6 +39,26 @@
         .floating-ss-box {
           display: inline-block;
         }
+        .btn-ss {
+          color: #FFF;
+          background-color: #E60000;
+          border-color: #FF1854;
+        }
+        .btn-ss:active, .btn-ss.active, .open > .dropdown-toggle.btn-ss {
+          color: #FFF;
+          background-color: #FD0042;
+          border-color: #D90039;
+        }
+        .btn-ss:hover {
+          color: #FFF;
+          background-color: #FD0042;
+          border-color: #D90039;
+        }
+        .btn-ss:active:hover, .btn-ss.active:hover, .open > .dropdown-toggle.btn-ss:hover, .btn-ss:active:focus, .btn-ss.active:focus, .open > .dropdown-toggle.btn-ss:focus, .btn-ss.focus:active, .btn-ss.active.focus, .open > .dropdown-toggle.btn-ss.focus {
+          color: #FFF;
+          background-color: #D90039;
+          border-color: #970028;
+        }
       }
     </style>
   </head>
@@ -59,7 +79,7 @@
           <input id="bccemail" type="hidden" name="_bcc" />
           <input type="hidden" name="_next" value="//siegsieg.com/thanks-for-signing-up.html" />
           <input type="hidden" name="_subject" value="Siegsieg Product Launch Sign-Up" />
-          <input type="submit" class="btn btn-sm btn-info" value="Send">
+          <input type="submit" class="btn btn-sm btn-ss" value="Send">
         </form>
         <script>
           var contactform =  document.getElementById('contactform');
