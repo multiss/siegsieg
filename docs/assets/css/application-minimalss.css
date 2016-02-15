@@ -65,7 +65,8 @@
 
 /* footer block */
 .app-block-footer {
-  background-color: rgb(27, 28, 29);
+  background-color: rgb(54, 69, 79);
+  /* initial background-color: rgb(27, 28, 29); */
   color: #444;
   color: rgba(116, 119, 123, .5);
 }
