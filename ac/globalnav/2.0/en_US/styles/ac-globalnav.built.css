@@ -772,19 +772,19 @@ html,body{
   
 }
 #ac-globalnav .ac-gn-link-apple{
-  background-repeat:no-repeat;background-size:20px 44px;background-image:url("../images/ac-globalnav/globalnav/apple/image_large.svg");background-position:center center;width:20px
+  background-repeat:no-repeat;background-size:20px 44px;background-image:url("../images/ss-globalnav/globalnav/siegsieg/image_large.svg");background-position:center center;width:20px
   
 }
 #ac-globalnav.no-svg .ac-gn-link-apple{
-  background-image:url("http://images.apple.com/ac/globalnav/2.0/en_US/images/ac-globalnav/globalnav/apple/image_large.png")
+  background-image:url("http://www.siegsieg.com/globalnav/2.0/en_US/images/ss-globalnav/globalnav/siegsieg/image_large.png")
 }
 @media only screen and (max-width: 767px){
   #ac-globalnav .ac-gn-link-apple{
-    background-size:21px 48px;background-image:url("../images/ac-globalnav/globalnav/apple/image_small.svg")
+    background-size:21px 48px;background-image:url("../images/ss-globalnav/globalnav/siegsieg/image_small.svg")
     
   }
   #ac-globalnav.no-svg .ac-gn-link-apple{
-  background-image:url("http://images.apple.com/ac/globalnav/2.0/en_US/images/ac-globalnav/globalnav/apple/image_small.png")
+  background-image:url("http://www.siegsieg.com/globalnav/2.0/en_US/images/ss-globalnav/globalnav/siegsieg/image_small.png")
     
   }
   
@@ -954,20 +954,20 @@ html,body{
   
 }
 #ac-globalnav .ac-gn-link-search{
-  background-repeat:no-repeat;background-size:20px 44px;background-image:url("../images/ac-globalnav/globalnav/search/image_large.svg");background-position:center center;width:20px
+  background-repeat:no-repeat;background-size:20px 44px;background-image:url("../images/ss-globalnav/globalnav/search/image_large.svg");background-position:center center;width:20px
 
 }
 #ac-globalnav.no-svg .ac-gn-link-search{
-  background-image:url("http://images.apple.com/ac/globalnav/2.0/en_US/images/ac-globalnav/globalnav/search/image_large.png")
+  background-image:url("http://www.siegsieg.com/globalnav/2.0/en_US/images/ss-globalnav/globalnav/search/image_large.png")
 
 }
 @media only screen and (max-width: 767px){
   #ac-globalnav .ac-gn-link-search{
-    background-size:22px 48px;background-image:url("../images/ac-globalnav/globalnav/search/image_small.svg")
+    background-size:22px 48px;background-image:url("../images/ss-globalnav/globalnav/search/image_small.svg")
     
   }
   #ac-globalnav.no-svg .ac-gn-link-search{
-    background-image:url("http://images.apple.com/ac/globalnav/2.0/en_US/images/ac-globalnav/globalnav/search/image_small.png")
+    background-image:url("http://www.siegsieg.com/globalnav/2.0/en_US/images/ss-globalnav/globalnav/search/image_small.png")
     
   }
   
