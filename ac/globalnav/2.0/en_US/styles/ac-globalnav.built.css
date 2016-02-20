@@ -776,7 +776,7 @@ html,body{
   
 }
 #ac-globalnav.no-svg .ac-gn-link-apple{
-  background-image:url("http://www.siegsieg.com/globalnav/2.0/en_US/images/ss-globalnav/globalnav/siegsieg/image_large.png")
+  background-image:url("/globalnav/2.0/en_US/images/ss-globalnav/globalnav/siegsieg/image_large.png")
 }
 @media only screen and (max-width: 767px){
   #ac-globalnav .ac-gn-link-apple{
@@ -1002,7 +1002,7 @@ with: */
 
 }
 #ac-globalnav.no-svg .ac-gn-link-bag{
-  background-image:url("http://www.siegsieg.com/globalnav/2.0/en_US/images/ss-globalnav/globalnav/bag/image_large.png")
+  background-image:url("../globalnav/2.0/en_US/images/ss-globalnav/globalnav/bag/image_large.png")
 
 }
 @media only screen and (max-width: 767px){
@@ -1011,7 +1011,7 @@ with: */
     
   }
   #ac-globalnav.no-svg .ac-gn-link-bag{
-    background-image:url("http://www.siegsieg.com/globalnav/2.0/en_US/images/ss-globalnav/globalnav/bag/image_small.png")
+    background-image:url("../globalnav/2.0/en_US/images/ss-globalnav/globalnav/bag/image_small.png")
     
   }
   
